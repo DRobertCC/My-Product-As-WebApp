@@ -1,0 +1,148 @@
+<!DOCTYPE html> <!-- https://www.w3.org/Style/Examples/011/firstcss.en.html#HTML -->
+<html>
+
+<head>
+	<title>Honey bee</title>
+	<link rel="stylesheet" href="index.css">
+	<meta charset="utf-8">
+	<meta name="description" content="This is a web page about Honey bees">
+</head>
+
+<body>
+
+<!-- Site navigation menu -->
+<ul class="navbar">
+  <li><a href="#honeybee">Honey bee</a></li>
+  <li><a href="#classification">Scientific classification</a></li>
+  <li><a href="#species">Species</a></li>
+  <li><a href="#links">Links</a></li>
+</ul>
+<!-- <ul class="navbar">
+  <li><a href="index.html">Home page</a></li>
+  <li><a href="beekeeping.html">Beekeeping</a></li>
+  <li><a href="bee_products.html">Bee products</a></li>
+  <li><a href="links.html">Links</a></li>
+</ul>
+ -->
+
+<form class="subscribe" action="addsubscriberservlet" method="POST">
+    <hr>
+    <h3>Subscribe to our Newsletter:</h3>
+        <p>Name:<br/><input class="subscribe" type="text" name="name" required/></p>
+        <p>Email:<br/><input class="subscribe" type="text" name="email" required/></p>
+        <p><input type="submit" value="Submit"/></p>
+
+        <p><a href="listsubscriberservlet">Subscribed users</a></p>
+</form>
+
+<!-- Main content -->
+<h1 id=honeybee>Honey bee</h1>
+
+<p>A <strong>honey bee</strong> (or <strong>honeybee</strong>) is a eusocial, flying insect within the genus <em>Apis</em> of the bee clade. They are known for construction of perennial, colonial nests from wax, for the large size of their colonies, and for their surplus production and storage of honey, distinguishing their hives as a prized foraging target of many animals, including honey badgers, bears and human hunter-gatherers. In the early 21st century, only seven species of honey bee are recognized, with a total of 44 subspecies, though historically seven to eleven species are recognized. The best known honey bee is the Western honey bee which has been domesticated for honey production and crop pollination; modern humans also value the wax for candlemaking and other crafts. Honey bees represent only a small fraction of the roughly 20,000 known species of bees. Some other types of related bees produce and store honey and have been kept by humans for that purpose, including the stingless honey bees, but only members of the genus Apis are true honey bees. The study of bees, which includes the study of honey bees, is known as melittology.</p>
+
+<table>
+	<tr>
+		<th colspan="2" align="center"><h3>Honey bees</h3></th>
+	</tr>
+	<tr>
+		<th id="classification" colspan="2"><strong>Scientific classification</strong></th>
+	</tr>
+	<tr>
+		<td colspan="2"><img src="images/Apis_mellifera_Western_honey_bee.jpg" width="330" height="274" alt="Western honey bee"></td>
+	</tr>
+    <tr>
+        <td>Kingdom:</td>
+        <td>Animalia</td>
+    </tr>	
+    <tr>
+        <td>Phylum:</td>
+        <td>Euarthropoda</td>
+    </tr>	
+    <tr>
+        <td>Class:</td>
+        <td>Insecta</td>
+    </tr>	
+    <tr>
+        <td>Order:</td>
+        <td>Hymenoptera</td>
+    </tr>	
+    <tr>
+        <td>Family:</td>
+        <td>Apidae</td>
+    </tr>	
+    <tr>
+        <td>Subfamily:</td>
+        <td>Apinae</td>
+    </tr>	
+    <tr>
+        <td rowspan="2">Tribe:</td>
+        <td><strong>Apini</strong></td>
+    </tr>	
+    <tr>
+        <td>Latreille, 1802</td>
+    </tr>	
+    <tr>
+        <td rowspan="2">Genus:</td>
+        <td><strong>Apis</strong></td>
+    </tr>	
+    <tr>
+        <td>Linnaeus, 1758</td>
+    </tr>	
+	<tr>
+		<th id="species" class="species" colspan="2"><strong>Species</strong></th>
+	</tr>
+    <tr>
+        <ul>
+        	<tr><td><li><em>†Apis lithohermaea</em></li></td></tr>
+        	<tr><td><li><em>†Apis nearctica</em></li></td></tr>
+
+        	<tr><td><li><strong>Subgenus <em>Micrapis</em>:</strong></li></td></tr>
+        	<tr>
+        		<ul>
+	        		<tr><td><li><em>Apis andreniformis</em></li></td></tr>
+	        		<tr><td><li><em>Apis florea</em></li></td></tr>
+        		</ul>
+        	</tr>
+
+        	<tr><td><li><strong>Subgenus <em>Megapis</em>:</strong></li></td></tr>
+        	<tr>
+        		<ul>
+	        		<tr><td><li><em>Apis dorsata</em></li></td></tr>
+        		</ul>
+        	</tr>
+
+        	<tr><td><li><strong>Subgenus <em>Apis</em>:</strong></li></td></tr>
+        	<tr>
+        		<ul>
+	        		<tr><td><li><em>Apis cerana</em></li></td></tr>
+	        		<tr><td><li><em>Apis koschevnikovi</em></li></td></tr>
+	        		<tr><td><li><em>Apis mellifera</em></li></td></tr>
+	        		<tr><td><li><em>Apis nigrocincta</em></li></td></tr>
+        		</ul>
+        	</tr>
+
+        </ul>
+    </tr>	
+</table>
+
+
+<!-- Footer -->
+<footer id="footer">
+	<div class="inner">
+		<ul id="links" class="icons">
+			<li><a href="#links" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+			<li><a href="#links" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+			<li><a href="#links" class="icon fa-github"><span class="label">Github</span></a></li>
+			<li><a href="#links" class="icon fa-discord"><span class="label">Discord</span></a></li>
+			<li><a href="#links" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+		</ul>
+		<ul class="copyright">
+			<li>&copy; Untitled</li><li>Design: Droberto</li>
+			<li><address>20 April 2019</address></li>
+		</ul>
+	</div>
+</footer>
+
+</body>
+
+</html>
